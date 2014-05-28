@@ -1,0 +1,4 @@
+yii-autonumber
+==============
+
+Autonumber behavior
