@@ -22,7 +22,7 @@ public function behavior()
 {
 	return array(
 		array(
-			'class' => 'mdm\autonumber\Behavior',
+			'class' => 'ext.autonumber.MdmAutonumberBehavior',
 			'attribute' => 'sales_num', // required
 			'group' => 'sales', // required, unique
 			'value' => 'SA-'.date('Y-m-d').'?' , // format auto number. '?' will be replaced with generated number
